@@ -14,4 +14,6 @@ on(n2, priority=1) do n2
 end
 n3 = @lift 2*$n1
 n4 = @lift $n1 + $n1
+
+plot_observable_dependencies(Main)
 ```
